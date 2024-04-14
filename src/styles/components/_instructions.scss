@@ -1,0 +1,44 @@
+
+.instructions {
+    text-align: center;
+    margin-top: 50px;
+    overflow: hidden;
+
+    &__title {
+        font-size: 20px;
+        margin-bottom: 18px;
+        color: #00c86f;
+    }
+
+    &__text {
+        font-size: 33px;
+        color: #fff;
+        margin-bottom: 100px;
+    }
+}
+
+
+.instructions__one {
+    display: flex;
+    padding: 50px 0;
+    gap: 20px;
+
+    @media (max-width:640px) {
+        display: block;
+    }
+
+    &--is-left {
+        flex-direction: row-reverse;
+    }
+
+    &__name {
+        font-size: 24px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    &__description {
+        font-size: 19px;
+        color: whitesmoke;
+    }
+}

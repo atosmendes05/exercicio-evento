@@ -1,0 +1,25 @@
+@use './components/hero';
+@use './components/header.scss';
+@use './components/nav';
+@use './components/instructions';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body {
+    background-color: #000;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+
+    @media (max-width:640px) {
+        width: 90%;
+    }
+}
